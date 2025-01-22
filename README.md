@@ -1,2 +1,2 @@
 # Manish_Kushvaha_Portfolio
-It is my portfolio created using Node.js, Express.js, Javascript, CSS and HTML.
+It is my portfolio created using Node.js, Express.js, Javascript, and CSS.
