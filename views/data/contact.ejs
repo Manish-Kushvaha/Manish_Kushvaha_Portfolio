@@ -1,0 +1,87 @@
+<% layout("/layouts/boilerplate") -%>
+    <div class="all-contacts">
+        <h2 class="text-white text-c head">Contact</h2>
+        <div class="contact-page">
+
+            <div class="common-contact layout">
+                <div class="mail-contact">
+                    <h4 class="text-white contact-h4">Location:</h4>
+                    <a href="#">Pnavel (New Mumbai), India</a>
+                </div>
+                <div class="mail-contact">
+                    <h4 class="text-white contact-h4">Email:</h4>
+                    <a href="mailto:kushvahamanish555@gmail.com">kushvahamanish555@gmail.com</a>
+                </div>
+                <div class="mail-contact">
+                    <h4 class="text-white contact-h4">Call:</h4>
+                    <a onclick="textCopy()" href="javascript:void(0)" class="a-tag">+91 9769792558</a>
+                </div>
+
+            </div>
+            <div class="form-contact">
+                <div class="form-inside layout">
+                    <h3 class="c-form-head">CONTACT FORM</h3>
+                    <form class=" g-3 text-white needs-validation" action="https://api.web3forms.com/submit"
+                        method="POST" novalidate>
+                        <input type="hidden" name="access_key" value="d8af52d3-7b6d-40f2-bbd8-da711978420f">
+                        <div class="row g-1 col-md-11 block ">
+                            <div class="col">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" class="form-control" name="name" placeholder="Enter full name"
+                                    id="name" aria-label="name" required>
+                                <div class="invalid-feedback error-color">
+                                    Please enter your name.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-11 block">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" name="email" placeholder="Enter email" id="email"
+                                required>
+                            <div class="invalid-feedback error-color">
+                                Please enter your email.
+                            </div>
+                        </div>
+                        <div class="col-md-11 block">
+                            <label for="phone" class="form-label">Phone</label>
+                            <input type="tel" class="form-control" name="phone" placeholder="Enter phone number"
+                                id="phone" required>
+                            <div class="invalid-feedback error-color">
+                                Please enter your phone number.
+                            </div>
+                        </div>
+                        <div class="mb-3 col-md-11 block">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" name="message" placeholder="Write message..." id="message"
+                                rows="3" required></textarea>
+                            <div class="invalid-feedback error-color">
+                                Please enter your message.
+                            </div>
+                        </div>
+                        <div class="col-12 block">
+                            <button type="submit" class="btn btn-primary form-btn"
+                                onclick="confirmationMsg(event)">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="social-contact">
+                <h3 class="c-form-head pt-4">SOCIAL MEDIA</h3>
+                <div class="inside-social">
+
+                    <a href="https://wa.me/9769792558?text=Hi%20there!%20I%20found%20your%20portfolio%20and%20would%20like%20to%20connect."
+                        target="_blank" alt="Whatsapp Page">
+                        <i class="fa-brands fa-whatsapp social-logo main-icons"></i>
+                    </a>
+                    <a href="https://github.com/Manish-Kushvaha/Manish-Kushvaha" target="_blank" alt="Github Page"><i
+                            class="fa-brands fa-github social-logo main-icons"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/manishkushvaha/ " target="_blank" alt="Linkedin Page"><i
+                            class="fa-brands fa-linkedin social-logo main-icons"></i>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <hr class="skill-line">

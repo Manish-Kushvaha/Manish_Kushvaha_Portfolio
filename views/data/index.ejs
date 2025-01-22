@@ -1,0 +1,42 @@
+<% layout("/layouts/boilerplate") -%>
+    <div class="main">
+        <div class="stu-info text-white div-1">
+
+            <h1 class="font-sans text-white pb-2">Hi<img
+                    src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f44b/512.gif" alt="👋" width="36" height="36"
+                    class="inline-image pb-2 ">
+                I am</h1>
+            <h2 class="font-serif typewriter">Manish Shriprakash Kushvaha</h2>
+            <h3 class=" pt-2 title">Fullstack Web Developer & Problem Solver</h3>
+            <p class="font-mono pt-3">I am a passionate Fullstack Developer 👩🏻‍💻 skilled in building dynamic,
+                responsive web applications
+                using modern frontend and backend technologies, with a strong focus on delivering user-centric
+                solutions.
+            </p>
+            <div class="contact-icons mt-4">
+                <a href="https://wa.me/9769792558?text=Hi%20there!%20I%20found%20your%20portfolio%20and%20would%20like%20to%20connect."
+                    target="_blank" alt="Whatsapp Page">
+                    <i class="fa-brands fa-whatsapp main-icons"></i></a>
+                <a href="https://github.com/Manish-Kushvaha/Manish-Kushvaha" target="_blank" alt="Github Page"><i
+                        class="fa-brands fa-github main-icons ms-5"></i></a>
+                <a href="https://www.linkedin.com/in/manishkushvaha/ " target="_blank" alt="Linkedin Page"><i
+                        class="fa-brands fa-linkedin main-icons ms-5"></i></a>
+            </div>
+            <div class="resume mt-5 ">
+                <a class="r-button text-white" alt="Resume" target="_blank" href=" " >Download Resume</a>
+            </div>
+        </div>
+        <div class="img-fit div-2 imgHover" onmouseover="flipImg(event)" onmouseout="flipOver(event)">
+            <img src="/RamjeeTemple.jpg" alt="Picture" class="myImg hideImg1">
+            <img src="/Anime pic.avif" alt="Picture" class="myImg hide flipImage">
+            <img src="/Manish_k2.jpeg" alt="Picture" class="myImg hideImg2 hide bgColor">
+        </div>
+    </div>
+    <hr class="line">
+
+    <div class="skill-page">
+        <%- include("../data/skills.ejs") %>
+    </div>
+    <div class="contact-page-div">
+        <%- include("../data/contact.ejs") %>
+    </div>
