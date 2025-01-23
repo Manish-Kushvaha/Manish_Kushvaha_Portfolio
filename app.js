@@ -27,15 +27,15 @@ app.use(express.static(path.join(__dirname, "public")));
 app.use(express.static(path.join(__dirname, "Images")));
 
 app.get("/data", (req, res) => {
-    res.render("data/index.ejs");
+    res.render("data/index");
 });
 
 app.get("/data/skills", (req, res) => {
-    res.render("data/skills.ejs");
+    res.render("data/skills");
 });
 
 app.get("/data/contact", (req, res) => {
-    res.render("data/contact.ejs");
+    res.render("data/contact");
 });
 
 app.get("/data/education", (req, res) => {
@@ -43,7 +43,7 @@ app.get("/data/education", (req, res) => {
 });
 
 app.get("/data/projects", (req, res) => {
-    res.render("data/projects.ejs");
+    res.render("data/projects");
 });
 
 app.get("/", (req, res) => {
