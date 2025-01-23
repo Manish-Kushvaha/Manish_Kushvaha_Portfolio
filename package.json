@@ -1,9 +1,11 @@
+
 {
   "name": "practiceram",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -13,7 +15,9 @@
     "ejs": "^3.1.10",
     "ejs-mate": "^4.0.0",
     "express": "^4.21.2",
-    "mongoose": "^8.9.4",
-    "mongosh": "^2.3.8"
+    "mongoose": "^8.9.4"
+  },
+  "engines": {
+    "node": ">=16.x"
   }
 }
