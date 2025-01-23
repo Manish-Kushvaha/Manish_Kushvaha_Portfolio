@@ -26,28 +26,24 @@ app.engine("ejs", ejsMate);
 app.use(express.static(path.join(__dirname, "public")));
 app.use(express.static(path.join(__dirname, "Images")));
 
-app.get("/data", (req, res) => {
+app.get("/", (req, res) => {
     res.render("data/index");
 });
 
-app.get("/data/skills", (req, res) => {
+app.get("/skills", (req, res) => {
     res.render("data/skills");
 });
 
-app.get("/data/contact", (req, res) => {
+app.get("/contact", (req, res) => {
     res.render("data/contact");
 });
 
-app.get("/data/education", (req, res) => {
+app.get("/education", (req, res) => {
     res.render("data/education.ejs");
 });
 
-app.get("/data/projects", (req, res) => {
+app.get("/projects", (req, res) => {
     res.render("data/projects");
-});
-
-app.get("/", (req, res) => {
-    res.send("Jay Ho Bappa");
 });
 
 app.listen(port, () => {
