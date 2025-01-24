@@ -117,7 +117,7 @@ function startInterval() {
   intervalId = setInterval(() => {
     img1.classList.toggle('hide');
     img2.classList.toggle('hide');
-  }, 2500);
+  }, 2000);
 }
 
 function flipImg(event) {

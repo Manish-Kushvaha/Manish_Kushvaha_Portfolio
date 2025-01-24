@@ -39,7 +39,7 @@ app.get("/contact", (req, res) => {
 });
 
 app.get("/education", (req, res) => {
-    res.render("data/education.ejs");
+    res.render("data/education");
 });
 
 app.get("/projects", (req, res) => {

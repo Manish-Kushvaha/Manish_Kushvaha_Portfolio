@@ -678,6 +678,33 @@ td {
 
 /* Media for Skill Page */
 
+.hidden2{
+    display: none;
+}
+
+@media (max-width:28rem){
+    .hidden2{
+        display: block;
+    }
+    .hidden1{
+        display: none;
+    }
+    .font-serif {
+        font-style: italic;
+        font-weight: 800;
+        font-size: 2.8rem;
+    }
+    .typewriter {
+        overflow: hidden;
+        white-space: nowrap;
+        border-right: 3px solid white;
+        animation: typewriter 7s steps(50, end) infinite, blink 0.75s step-end infinite;
+        /* display: inline-block; */
+        width: 0;
+        max-width: 15ch;
+    }
+}
+
 @media (max-width:55rem) {
     .skills-section {
         width: 100%;
@@ -710,39 +737,49 @@ td {
     }
 }
 
-@media (max-width:35rem) {
+@media (max-width:37rem){
+    
     .typewriter {
-        font-size: 1.5rem;
+        font-size: 1.6rem;
         font-weight: 600;
         width: 50%;
         word-wrap: wrap;
     }
+}
 
+
+@media (max-width:35rem) {
+    
+    .typewriter {
+        font-size: 1.7rem;
+        font-weight: 600;
+        width: 50%;
+        word-wrap: wrap;
+    }
     .social-logo {
         font-weight: 600;
         font-size: 3rem;
     }
 
-
     .font-mono {
-        text-align: start;
+        /* word-spacing: 0.5px; */
+        /* text-align: justify; */
         font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
-        line-height: 1.5rem;
-        word-spacing: 0.5px;
+        line-height: 1.8rem;
         font-size: 1.3rem;
     }
 
-    .myPara{
+    .myPara {
         margin: 0 0.3rem;
     }
 
-    /* .font-mono {
-    text-align: start;
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
-    line-height: 2rem;
-    word-spacing: 0.5px;
-    font-size: 1.5rem;
-} */
+    .title {
+        font-weight: 900;
+        line-height: 2rem;
+        font-size: 1.8rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
 }
 
 /* Education Page CSS */
@@ -1151,7 +1188,7 @@ td {
 
 }
 
-/* Hiding */
+/* Hiding the Images */
 
 .hide {
     display: none;
@@ -1161,10 +1198,11 @@ td {
     display: block;
 }
 
-.bgColor{
+.bgColor {
     background-color: gray;
 }
 
-.hide , .show{
-    transition: all 0.3s ease-in; 
+.hide,
+.show {
+    transition: all 0.3s ease-in;
 }
