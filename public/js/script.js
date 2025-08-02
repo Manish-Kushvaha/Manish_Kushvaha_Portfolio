@@ -124,7 +124,7 @@ function flipImg(event) {
   event.preventDefault();
   img1.classList.add('hide');
   img2.classList.add('hide');
-  flipImage.classList.toggle('hide')
+  flipImage.classList.toggle('hide');
   clearInterval(intervalId);
 };
 
