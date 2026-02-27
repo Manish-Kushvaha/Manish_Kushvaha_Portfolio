@@ -1049,6 +1049,10 @@ td {
     margin-bottom: 0.5rem;
 }
 
+.projInfo{
+    text-align: justify;
+}
+
 .pro-head {
     font-size: 1.8rem;
     font-family: 'Times New Roman', Times, serif;
