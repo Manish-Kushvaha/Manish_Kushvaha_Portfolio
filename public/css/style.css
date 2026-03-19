@@ -552,6 +552,12 @@ td {
     background-color: orange;
 }
 
+.btn-style{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
 .form-contact {
     width: 35rem;
 }

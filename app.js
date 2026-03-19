@@ -48,4 +48,5 @@ app.get("/projects", (req, res) => {
 
 app.listen(port, () => {
     console.log("Ganapati Bappa Morya");
+    console.log(`Listen on port ${port}`);
 });
