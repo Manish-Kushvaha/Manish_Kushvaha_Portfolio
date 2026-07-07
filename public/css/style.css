@@ -1216,3 +1216,7 @@ td {
 .show {
     transition: all 0.3s ease-in;
 }
+
+.txt{
+    text-align: justify;
+}
